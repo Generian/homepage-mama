@@ -2,10 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="index.js"></script>
     <title>title</title>
   </head>
   <body>
     <h1>Mama: "Basti lass den Hamster frei!"</h1>
-    <img src="./hamster.jpg">
+    <input type="password" id="password" name="password">
+    <button onclick="submit()">Submit</button>
+
+    <form action="validation.php" method="post">
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit">
+    </form>
+
+    <div id="img-container">
+    </div>
   </body>
 </html>
